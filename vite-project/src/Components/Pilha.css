@@ -1,0 +1,50 @@
+.Pilha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.controles {
+    margin-bottom: 20px;
+}
+
+.controles input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.controles button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.controles button:hover {
+    background-color: #0056b3;
+}
+
+.visualizacao-pilha {
+    display: flex;
+    flex-direction: column-reverse; /* O topo da pilha fica no topo visual */
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    min-height: 300px;
+}
+
+.elemento-pilha {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+}
