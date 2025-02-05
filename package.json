@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/react": "file:latest@types/react-dom@latest"
+  }
+}
