@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    color: black;
 }
 
 .controles {
@@ -32,7 +33,7 @@
 
 .visualizacao-pilha {
     display: flex;
-    flex-direction: column-reverse; /* O topo da pilha fica no topo visual */
+    flex-direction: column-reverse; 
     align-items: center;
     border: 1px solid #ccc;
     padding: 10px;
